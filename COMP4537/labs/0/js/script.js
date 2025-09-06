@@ -144,16 +144,18 @@ class Game {
      * Ends the game and shows a success or fail message.
      */
     endGame(status) {
-        if (status) {
-            alert(SUCCESS)
-        } else {
-            alert(FAIL)
-        }
-
         this.current = 0
         this.arrayButtons.forEach((b) => {
             b.button.innerHTML = b.id
         })
+
+        setTimeout(() => {
+            if (status) {
+                alert(SUCCESS)
+            } else {
+                alert(FAIL)
+            }
+        }, 0)
     }
 }
 
