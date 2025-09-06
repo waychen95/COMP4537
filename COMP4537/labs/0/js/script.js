@@ -154,6 +154,7 @@ class Game {
                 alert(SUCCESS)
             } else {
                 alert(FAIL)
+                alert(GAME_OVER)
             }
         }, 0)
     }

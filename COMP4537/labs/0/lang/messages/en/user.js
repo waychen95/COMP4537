@@ -7,3 +7,5 @@ const INPUT_INVALID = "Please enter a valid number."
 
 const SUCCESS = "Excellent memory!"
 const FAIL = "Wrong order!"
+
+const GAME_OVER = "Game over!"
