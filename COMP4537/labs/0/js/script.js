@@ -3,7 +3,7 @@
  */
 class UI {
     /**
-     * Displays a message inside a DOM element with the given ID.
+     * Displays a message inside an element with the given ID.
      */
     displayMessages(id, message) {
         const container = document.getElementById(id)
