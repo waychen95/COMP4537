@@ -1,0 +1,118 @@
+
+header {
+    text-align: center;
+}
+
+.welcome-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back:hover {
+    background-color: #0056b3;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 2rem;
+    width: 100%;
+}
+
+.input-container {
+    height: auto;
+}
+
+#notebook-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 500px;
+    flex: 1;
+}
+
+#note-input {
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.note {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.note-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+    background-color: rgb(253, 235, 212);
+    padding: 1rem;
+    text-align: left;
+    width: 250px;
+    height: 200px;
+}
+
+.note p {
+    padding: 0;
+    margin: 0;
+}
+
+.note button {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+
+.add {
+    background-color: green;
+    height: 39.5px;
+}
+
+.remove {
+    background-color: red;
+}
+
+.remove-all {
+    background-color: red;
+}
+
+.modify {
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 500px;
+
+}

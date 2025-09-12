@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writer</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header><h3 id="welcome-message"></h3></header>
+    <div class="main-container">
+        <div class="message-container">
+            <h5 id="time"></h5>
+        </div>
+        <div class="input-container">
+            <input type="text" id="note-input" placeholder="Writer something here...">
+            <button id="add-button" class="btn add"></button>
+        </div>
+        <div id="notebook-container"></div>
+        <div class="button-container">
+            <button id="back-button" class="btn back"></button>
+            <button id="remove-all-button" class="btn remove-all"></button>
+        </div>
+    </div>
+    <script type="module" src="./js/writer.js"></script>
+    <script src="./lang/messages/en/user.js"></script>
+</body>
+</html>
