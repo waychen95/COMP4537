@@ -165,12 +165,12 @@ class Game {
  */
 class Button {
     constructor(number) {
-        this.id = number
+        this.id = number + 10
         this.button = document.createElement("button")
         this.button.style.backgroundColor = RandomGenerator.generateRandomColor()
         this.button.style.height = "5rem"
         this.button.style.width = "10rem"
-        this.button.innerText = number
+        this.button.innerText = number + 10
         this.button.disabled = true
         this.button.classList.add("game-buttons")
     }

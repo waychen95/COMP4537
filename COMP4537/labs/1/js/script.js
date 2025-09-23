@@ -34,6 +34,7 @@ export class UI {
     }
 
     /**
+     * chatGTP was used.
      * Add event listeners to remove buttons.
      */
     addRemoveButtonListeners(callback) {
@@ -47,6 +48,7 @@ export class UI {
     }
 
     /**
+     * chatGTP was used.
      * Add event listeners to textareas for editing notes.
      */
     addModifyButtonListeners(callback) {

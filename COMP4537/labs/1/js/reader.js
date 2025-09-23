@@ -25,7 +25,6 @@ class ReaderManager extends NoteBookManager {
 
         window.addEventListener("storage", (event) => {
             if (event.key === "notes") {
-                console.log(event.key)
                 this.refreshNoteBook(this.isWriter)
             }
 
